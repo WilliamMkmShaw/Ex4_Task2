@@ -4,6 +4,7 @@ project:
     - toplevel_chip.v
     - chip.sv
     - decoder.v
+    - RangeFinder.sv
   top_module:  "toplevel_chip"
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
@@ -13,7 +14,7 @@ project:
 #
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
-  author:       "PLACEHOLDER"      # Your name
+  author:       "William Shaw"      # Your name
   discord:      ""      # Your discord handle
   title:        "PLACEHOLDER"      # Project title
   description:  "PLACEHOLDER"      # Short description of what your project does
